@@ -2,7 +2,8 @@ import React, { createRef } from 'react';
 import './tailwind.generated.css';
 import './App.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleCompleted, addTodo, removeTodo } from './+state/actions';
+import { addTodo } from './+state/actions';
+import { TodoItem } from './TodoItem';
 
 function App() {
   const dispatch = useDispatch();
@@ -46,26 +47,7 @@ function App() {
           </div>
           <div>
             {todos.map((todo, index) => {
-              return (
-                <div
-                  key={todo.label + index}
-                  className="flex mb-4 items-center"
-                >
-                  <p className={`${todo.completed ? 'line-through text-green-500': 'text-grey-800'} w-full `}>{todo.label}</p>
-                  <button
-                    onClick={() => dispatch(toggleCompleted(index))}
-                    className={`flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-green-800 text-green-500 border-green-500 hover:bg-green-500`}
-                  >
-                    {!todo.completed ? 'Done' : 'Undone'}
-                  </button>
-                  <button
-                    onClick={() => dispatch(removeTodo(index))}
-                    className="flex-no-shrink p-2 ml-2 border-2 rounded text-red-500 border-red-500 hover:text-red-800 hover:bg-red-500"
-                  >
-                    Remove
-                  </button>
-                </div>
-              );
+              return TodoItem(todo, index, dispatch);
             })}
           </div>
         </div>
