@@ -1,10 +1,10 @@
 export const initailState = {
     todos: [
-        /*
-        {
-            title: 'First Todo item',
-            completed: false
-        }
-        */
+        
+        // {
+        //     label: 'First Todo item',
+        //     completed: false
+        // }
+        
     ]
 }
