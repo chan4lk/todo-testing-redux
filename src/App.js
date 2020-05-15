@@ -47,7 +47,7 @@ function App() {
           </div>
           <div>
             {todos.map((todo, index) => {
-              return TodoItem(todo, index, dispatch);
+              return <TodoItem todo={todo} index={index} />
             })}
           </div>
         </div>
