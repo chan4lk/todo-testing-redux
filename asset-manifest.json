@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/todo-testing-redux/static/css/main.d1ec8a14.chunk.css",
-    "main.js": "/todo-testing-redux/static/js/main.10fdbd57.chunk.js",
-    "main.js.map": "/todo-testing-redux/static/js/main.10fdbd57.chunk.js.map",
+    "main.js": "/todo-testing-redux/static/js/main.d5d99016.chunk.js",
+    "main.js.map": "/todo-testing-redux/static/js/main.d5d99016.chunk.js.map",
     "runtime-main.js": "/todo-testing-redux/static/js/runtime-main.22e3f9a6.js",
     "runtime-main.js.map": "/todo-testing-redux/static/js/runtime-main.22e3f9a6.js.map",
     "static/js/2.1bec114b.chunk.js": "/todo-testing-redux/static/js/2.1bec114b.chunk.js",
     "static/js/2.1bec114b.chunk.js.map": "/todo-testing-redux/static/js/2.1bec114b.chunk.js.map",
     "index.html": "/todo-testing-redux/index.html",
-    "precache-manifest.762d007292077b53117c871532f662f8.js": "/todo-testing-redux/precache-manifest.762d007292077b53117c871532f662f8.js",
+    "precache-manifest.253a55e7eb1f1c78d7544b119aae6b95.js": "/todo-testing-redux/precache-manifest.253a55e7eb1f1c78d7544b119aae6b95.js",
     "service-worker.js": "/todo-testing-redux/service-worker.js",
     "static/css/main.d1ec8a14.chunk.css.map": "/todo-testing-redux/static/css/main.d1ec8a14.chunk.css.map",
     "static/js/2.1bec114b.chunk.js.LICENSE.txt": "/todo-testing-redux/static/js/2.1bec114b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.22e3f9a6.js",
     "static/js/2.1bec114b.chunk.js",
     "static/css/main.d1ec8a14.chunk.css",
-    "static/js/main.10fdbd57.chunk.js"
+    "static/js/main.d5d99016.chunk.js"
   ]
 }
