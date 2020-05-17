@@ -1,6 +1,7 @@
 {
   "name": "todo-testing-redux",
   "version": "0.1.0",
+  "homepage": "https://chan4lk.github.io/todo-testing-redux",
   "private": true,
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.2.0",
@@ -26,7 +27,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "coverage": "npm t -- --coverage --watchAll=false"
+    "coverage": "npm t -- --coverage --watchAll=false",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -58,5 +61,8 @@
         "statements": 90
       }
     }
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
